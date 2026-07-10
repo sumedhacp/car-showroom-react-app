@@ -43,14 +43,14 @@ const ViewCar = () => {
                                                         <img src={value.image} className="card-img-top" style={{ height: "220px", width: "100%" }} alt="..." />
                                                         <div className="card-body">
                                                             <h5 className="card-title">Details: </h5>
-                                                            <b>Car ID:: </b><p className="card-text">{value.carId}</p>
-                                                            <b>Brand: </b><p className="card-text">{value.brand}</p>
-                                                            <b>Model: </b><p className="card-text">{value.model}</p>
-                                                            <b>Fuel type:: </b><p className="card-text">{value.fuelType}</p>
-                                                            <b>Transmission: </b><p className="card-text">{value.transmission}</p>
-                                                            <b>Price: </b><p className="card-text">{value.price}</p>
-                                                            <b>Color: </b><p className="card-text">{value.color}</p>
-                                                            <b>Year: </b><p className="card-text">{value.year}</p>
+                                                            <p><b>Car ID: </b>{value.carId}</p>
+                                                            <p><b>Brand: </b>{value.brand}</p>
+                                                            <p><b>Model: </b>{value.model}</p>
+                                                            <p><b>Fuel type:: </b>{value.fuelType}</p>
+                                                            <p><b>Transmission: </b>{value.transmission}</p>
+                                                            <p><b>Price: </b>{value.price}</p>
+                                                            <p><b>Color: </b>{value.color}</p>
+                                                            <p><b>Year: </b>{value.year}</p>
                                                             <a href="#" className="btn btn-primary">Select</a>
                                                         </div>
                                                     </div>
